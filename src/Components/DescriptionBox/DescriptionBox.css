@@ -1,5 +1,5 @@
 .descriptionbox{
-    margin: 120px 170px;
+    margin: 200px 170px;
 }
 .descriptionbox-navigator{
     display: flex;
@@ -26,3 +26,19 @@
     padding: 48px;
     padding-bottom: 70px;
 }
+
+@media(max-width:1105px){
+    .descriptionbox{
+        margin: 100px;
+    }
+   
+}
+@media(max-width:950px){
+    .descriptionbox{
+        margin: 100px 20px;
+    }
+    .descriptionbox-description{
+        font-size: 13px;
+    }
+}
+
